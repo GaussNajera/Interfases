@@ -1,0 +1,67 @@
+<html>
+    <head>
+       <meta charset="utf-8">
+        <title>Inventario Usuario</title>
+       <style>
+           
+           #inventario { width: 100%; height: 140px; }
+           #logo {height: 135px}
+           #buttn {width: 75px; height: 32px; }
+           #buttn2 {width: 250px; height: 34px; }
+           #search {width: 450; height: 32px}
+           #t {width:inherit; height: inherit}
+
+           
+       </style>
+        
+       <script>  function regreso() {  window.location.href = 'Log_IN.html'; }   </script>
+       <link rel="stylesheet" href="Complementos/Estilos_generales.css" type="text/css" media="screen">
+        
+    </head>
+    
+    <body id="bod">
+        <div class="header">
+            <div class="log">
+                <img src="Complementos/logo.jpg" id="logo">
+            </div>
+            
+            <div class="busqueda">
+                <input type=text placeholder="Search" id="search" /> 
+                <input type=submit id="buttn" value="Buscar" />
+            </div>
+            
+            <div class="salir">
+                <input type="submit" value="Salir" id="buttn" onclick="regreso()" />
+            </div>
+        </div>
+
+        <div class="tab">
+            <div class="col">
+            <a href="Home.html">Herramienta de Corte</a></div>
+            <div class="col">
+            <a href="Home.html">Herramienta de Medicion</a></div>
+            <div class="col">
+            <a href="Home.html">Herramienta de Taladrado</a></div>
+            <div class="col">
+            <a href="Home.html">Herramienta para Atornillar</a></div>  
+            <div class="col">
+            <a href="Home.html">Herramienta para Serrar</a></div>
+        </div>        
+              <br>
+    <div id="inventario">
+        <table border="2px" id="t"> 
+        <tr>
+            <th><h2>Producto: </h2></th>
+            <th><h2>Imagen: </h2></th>
+            <th><h2>Descripcion: </h2></th>
+            <th><h2>Cantidad: </h2></th>
+        </tr>
+        <tr >
+      <th><h2>Herramienta 1</h2></th>
+       <th><img src="Complementos/Captura.PNG" alt="Hardware" height="125"/></th>
+            <th> lorem</th>
+       <th> <input type="text"id="stock-product"  disabled></th>
+         </tr>
+        </table> </div>
+    </body>
+</html>

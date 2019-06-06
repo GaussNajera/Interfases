@@ -1,0 +1,26 @@
+G1 = zpk([], [-4], 15)
+
+
+G2 = zpk([], [-1 -3], 21)
+
+
+G3 = zpk([], [-1 -2 -3], 6)
+
+
+G4 = zpk([], [0 -1 -2 -3], 25)
+
+
+G5 = zpk([-6], [0 -2 -4], 10)
+
+BKColor1=#355667
+BKColor2=#C3C3C3	
+ImgColor=#164755
+
+
+tablas  uno a muchos  
+        uno a uno     ;existe una que ees una tabla fuerte y una tabla debil
+	muchos        ;tabla debil, significa que es la que depende los demas
+
+
+HTA:	
+	1)De medida

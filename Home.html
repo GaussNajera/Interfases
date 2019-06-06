@@ -1,0 +1,35 @@
+<html>
+    <head>
+       <meta charset="utf-8">
+       <title>Home</title>
+       <link rel="stylesheet" href="Complementos/Estilos_generales.css" type="text/css" media="screen">
+       <script>
+            function regreso() {  window.location.href = 'Log_In.html'; }
+       </script>
+    </head>
+    
+    <body id="bod">
+        <div class="header">
+            <div class="log">
+                <img src="Complementos/logo.jpg" id="logo">
+            </div>
+            
+            <div class="busqueda">
+                <input type=text placeholder="Search" id="search" /> 
+                <input type=submit id="buttn" value="Buscar" />
+            </div>
+            
+            <div class="salir">
+                <input type="submit" value="Salir" id="buttn" onclick="regreso()" />
+            </div>
+        </div>
+        
+        <table id="img_catg">
+                 <tr> 
+                     <td id="celda"><a href="Inventario_Admin.html"><img src="Complementos/logo.jpg"></a></td>
+                     <td id="celda"><a href="Inventario_Usuario.html"><img src="Complementos/logo.jpg" ></a></td>
+                     <td id="celda"><a href="Inventario_Admin.html"><img src="Complementos/logo.jpg"></a></td>
+                 </tr>
+        </table>
+    </body>
+</html>
